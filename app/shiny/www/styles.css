@@ -1,0 +1,161 @@
+/* Reference: 
+https://bootswatch.com/flatly/
+https://bootswatch.com/4/flatly/bootstrap.css */
+
+/* Makes the navbar smaller */
+.navbar { padding-top: 0.1rem; padding-bottom: 0.1rem; }
+
+#quick_access_btn { 
+  position: fixed;
+  top: 10px;
+  right: 50px;
+  z-index: 10000;
+}
+
+
+#twitter_follow {
+  margin-top: 50px;
+  font-size: 110%;
+}
+
+.language_name {
+  display: inline;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+/* https://github.com/rstudio/shiny/issues/2988 */
+#shiny-notification-panel {
+  top: 0;
+  bottom: unset;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 450px;
+}
+
+.shiny-notification {
+  opacity: 1;
+  text-align: center;
+  font-size: 110%;
+}
+
+
+#map_sites {
+  margin-top: 5px;
+  width: 100%;
+  border: 2px solid grey;
+}
+
+.cl-success {
+  color: #2c3e50;
+}
+
+.cl-info {
+  color: #f39c12;
+}
+
+.cl-warning {
+  color: #f39c12;
+}
+
+.cl-fail {
+  color: #e74c3c;
+}
+
+.section {
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 0;
+  border-color: black;
+  border-top-style: double;
+  border-width: 3px 0 0 0;
+}
+
+#filter_box {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 2px;
+  padding-right: 15px;
+  padding-bottom: 2px;
+  padding-left: 15px;
+  position: relative;
+}
+
+#logo-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#header-filter {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.checklist {
+  width: 300px;
+}
+
+#save_acorn_server {
+  margin-bottom: 50px;
+}
+
+.text_center {
+  text-align: center;
+}
+
+/* For box outputs */
+
+.box_outputs {
+  margin-bottom: 25px;
+  border-style: solid;
+  border-color: #7b8a8b;
+  background-color: rgba(0,0,0,0.03);
+  color: #212529;
+  border-radius: .35rem;
+}
+
+.box_outputs_content {
+  padding: 10px;
+}
+
+.h4_title {
+  color: #ecf0f1;
+  background-color: #7b8a8b;
+  text-align: center;
+  font-weight: 400;
+  font-size: 110%;
+  padding: 7px;
+  margin-bottom: 5px;
+}
+
+/* For summary numbers in boxes */
+.box_summary {
+  border: 2px solid #2c3e50;
+  padding: 5px;
+  border-radius: 6px;
+  margin: 5px;
+  background-color: rgba(0,0,0,0.03);
+}
+
+
+.right {
+  float: right;
+}
+
+.numb {
+   font-size: 150%; 
+   color: #e74c3c;
+}
+
+.smallcaps {
+  font-variant: small-caps;
+  font-weight: 900;
+  font-size: 125%;
+}
+
+#other_organism_div {
+  margin-bottom: 400px;
+}

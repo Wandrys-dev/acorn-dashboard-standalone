@@ -7,5 +7,28 @@
 # bare miniminum: configurations are stored in json format
 jsonlite
 
-# if deploying shiny based applications:
+# from DESCRIPTION
+aws.s3
+bslib
+ComplexUpset
+curl
+DBI
+DT
+flexdashboard
+glue
+highcharter
+lubridate
+markdown
+openssl
+readr
+readxl
+REDCapR
+rmarkdown
+RSQLite
+rvest
 shiny
+shiny.i18n
+shinyjs
+shinyWidgets
+tidyverse
+writexl
